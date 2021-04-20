@@ -39,7 +39,11 @@ function getUser(url) {
         <div class="info">
           <h3 class="name">${data.name}</h3>
           <p id="bio" class="bio">${data.bio}</p>
-          <div class="figures"></div>
+          <div class="figures">
+            <p class="figure"><span>${data.followers}</span> Followers</p>
+            <p class="figure"><span>${data.following}</span> Following</p>
+            <p class="figure"><span>${data.public_repos}</span> Repos</p>
+          </div>
         </div>
       `
     }
