@@ -94,9 +94,9 @@ form.addEventListener('submit', (e) => {
     search.value = '';
   }
 })
-```
 
 function createErrorCard(msg) {
-const cardHTML = `<div class="card"> <h1>${msg}</h1> </div>`
-main.innerHTML = cardHTML;
+  const cardHTML = `<div class="card"> <h1>${msg}</h1> </div>`
+  main.innerHTML = cardHTML;
 }
+```
