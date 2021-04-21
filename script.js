@@ -63,7 +63,7 @@ function getUser(url) {
     div.classList.add('recent-repos');
 
     results.forEach(result => {
-      div.innerHTML += `<small class="repo">${result.name}</small>`
+      div.innerHTML += `<a class="repo" href=${result.html_url}>${result.name}</a>`
     })
     info.appendChild(div);
 
